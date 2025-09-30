@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/shoheiyamamoto18/argo_test.git
     targetRevision: main
-    path: sample-app-config
+    path: sample_app_config
   destination:
     server: https://kubernetes.default.svc
     namespace: sample-app-dev
